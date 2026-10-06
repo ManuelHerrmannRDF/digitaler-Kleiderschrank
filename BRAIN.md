@@ -12,7 +12,7 @@ Lebendes Dokument für alles, was zwischen den Sessions und Teammitgliedern nich
 
 ## 📌 Protokollpflicht für alle KI-Sitzungen (dauerhaft — nicht löschen)
 
-**Gilt für jede KI-Sitzung, die für dieses Projekt arbeitet** — egal für welches Teammitglied (Christian, Katha, Teammitglied 3) und egal mit welchem Werkzeug (Claude Code, Claude Cowork, Chat auf claude.ai, andere KIs).
+**Gilt für jede KI-Sitzung, die für dieses Projekt arbeitet** — egal für welches Teammitglied (Christian, Katha, Manuel) und egal mit welchem Werkzeug (Claude Code, Claude Cowork, Chat auf claude.ai, andere KIs).
 
 1. **Vor der Arbeit:** Diese Datei komplett lesen (mit Git-Zugriff vorher pullen) und deine Sitzungskennung bestimmen — siehe „🪪 Deine Sitzungskennung" direkt hierunter.
 2. **Alles, was du für das Projekt tust, wird hier dokumentiert** — Code- und Doku-Änderungen, getroffene Entscheidungen und übernommene Vorschläge, Recherchen und Experimente samt Ergebnis, Änderungen an Setup, Tools oder Repo-Struktur. Lieber ein kurzer Eintrag zu viel als eine Aktion, die niemand nachvollziehen kann.
@@ -45,9 +45,9 @@ Beispiel: Katha arbeitet am Laptop mit Claude Code → `Katha/Claude(Laptop.Code
 |---|---|
 | Christian | `Christian` |
 | Katha | `Katharina`, `Kathamesser` |
-| Teammitglied 3 | — |
+| Manuel | `ManuelHerrmannRDF` |
 
-*Die Namen legen die Teammitglieder selbst fest — „Katha" ist nur vorbelegt und darf geändert werden. Wer noch fehlt (z. B. Teammitglied 3), trägt beim ersten Kontakt eigenen Namen und Git-Namen ein und ersetzt den Platzhalter überall in dieser Datei.*
+*Die Namen legen die Teammitglieder selbst fest — „Katha" ist nur vorbelegt und darf geändert werden. Wer neu dazukommt, trägt beim ersten Kontakt eigenen Namen und Git-Namen ein.*
 
 **Vergebene Kennungen**
 
@@ -57,6 +57,7 @@ Beispiel: Katha arbeitet am Laptop mit Claude Code → `Katha/Claude(Laptop.Code
 | `Christian/Claude(VMOffice.Cowork)` | VM „ClaudeOffice" auf dem Hauptrechner | Claude Cowork | — |
 | `Christian/Claude(Laptop.Code)` | Schullaptop | Claude Code | `Deadsec` |
 | `Christian/Claude(Laptop.Cowork)` | Schullaptop | Claude Cowork | — |
+| `Manuel/Claude(Laptop.Cowork)` | Laptop | Claude Cowork | `laptop-manu` |
 
 *„—" beim Rechnernamen = noch nicht erfasst; bei der nächsten Sitzung auf diesem Gerät nachtragen.*
 
@@ -96,7 +97,7 @@ Gute Zusammenarbeit! 🤝
 |---|---|---|
 | Christian | Planung/KI-Infrastruktur mit Claude Code | 15.09.2026 |
 | Katha | — (bitte selbst eintragen) | — |
-| Teammitglied 3 | — (bitte selbst eintragen) | — |
+| Manuel | Einstieg mit Claude Cowork: Repo verbunden, BRAIN.md gelesen, Sitzungskennung festgelegt | 06.10.2026 |
 
 ## Nächste Schritte (teamweit)
 
@@ -105,7 +106,7 @@ Gute Zusammenarbeit! 🤝
 - [ ] Katha: maschinen-spezifische Permission aus `.claude/settings.json` in die lokale `settings.local.json` umziehen
 - [ ] MakeHuman ausprobieren (jeder ~1 Stunde) und Eindruck hier festhalten
 - [ ] Offene Entscheidungen (siehe oben) beim nächsten Team-Sync klären
-- [ ] Katha und Teammitglied 3: GitHub mit dem eigenen Claude verknüpfen, einmal `git pull`, eine neue Claude-Code-Sitzung starten und fragen „Wie lautet deine Sitzungskennung für BRAIN.md?" — Ergebnis bestätigen (Test der Erstkontakt-Regel vom 15.09.2026)
+- [ ] Katha und Manuel: GitHub mit dem eigenen Claude verknüpfen, einmal `git pull`, eine neue Claude-Code-Sitzung starten und fragen „Wie lautet deine Sitzungskennung für BRAIN.md?" — Ergebnis bestätigen (Test der Erstkontakt-Regel vom 15.09.2026)
 
 ## Wissensspeicher (Erkenntnisse, die nicht verloren gehen sollen)
 
@@ -118,6 +119,7 @@ Gute Zusammenarbeit! 🤝
 
 ## Log (neueste Einträge oben)
 
+- **06.10.2026 · Manuel/Claude(Laptop.Cowork):** Erstkontakt Manuel (bisher „Teammitglied 3", Git-Name `ManuelHerrmannRDF`): Repo geklont, BRAIN.md und CLAUDE.md komplett gelesen. Sitzungskennung `Manuel/Claude(Laptop.Cowork)` von Manuel bestätigt; „Wer ist wer", „Vergebene Kennungen" und „Wer macht gerade was" ergänzt, Platzhalter „Teammitglied 3" in den aktuellen Abschnitten ersetzt (alte Log-Einträge unverändert). Hinweis: Die Sitzung hatte nur Lesezugriff, weil Manuels GitHub noch nicht mit Claude verknüpft war — Änderung wurde von Manuel eingetragen bzw. nach der Verknüpfung gepusht.
 - **15.09.2026 · Christian/Claude(Laptop.Code):** Problem beim ersten Team-Test: Die KI-Sitzung einer Kollegin konnte ihre Kennung nicht in BRAIN.md eintragen (keine Schreibberechtigung). Ursache von Christian gefunden: GitHub war noch nicht mit ihrem Claude verknüpft. Keine Änderung an Repo-Rechten oder Claude-Freigaben nötig; Hinweis in Protokollpflicht (Punkt 5), Nächste Schritte und Wissensspeicher ergänzt.
 - **15.09.2026 · Christian/Claude(Laptop.Code):** Entscheidung Christian: Die Teammitglieder legen ihre Namen für die Sitzungskennung selbst fest, verbindlich ist nur die Syntax `Mensch/KI(Gerät.Anwendung)`. Abschnitt „🪪 Deine Sitzungskennung" präzisiert: Name selbst gewählt, Vorbelegung „Katha" änderbar, ermittelte Kennung wird bestätigt oder geändert.
 - **15.09.2026 · Christian/Claude(Laptop.Code):** Erstkontakt-Regel umgesetzt: neuer Abschnitt „🪪 Deine Sitzungskennung" in der Protokollpflicht (Aufbau der Kennung; Ablauf zu Sitzungsbeginn über `git config user.name` und `hostname`, sonst Menschen fragen; Tabellen „Wer ist wer" — Katharina/Kathamesser = Katha, per gemeinsamer Git-E-Mail geprüft — und „Vergebene Kennungen"; Hinweis auf alte Schreibweisen). Widerspruch in der Begrüßung beseitigt, CLAUDE.md angeglichen. Offene Frage aus der Prüfung erledigt; Test durch Katha und Teammitglied 3 unter „Nächste Schritte".
